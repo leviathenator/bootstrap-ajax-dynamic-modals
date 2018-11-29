@@ -1,7 +1,5 @@
 # Dynamodal
 Bootstrap Dynamic Modal Loader
-Loads &amp; opens Bootstrap modal windows from dynamic HTML templates using jQuery. Contains an onClick 
-event handler and a programatic event handler to allow you to call dynamic modal from inside anywhere.
+Extends the Bootstrap 4 native modals to load and open modals from outside templates without having to hard code them into your DOM.
 
-# Methods
-dynamodal.initM
+## Methods

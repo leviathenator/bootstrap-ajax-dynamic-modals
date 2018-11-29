@@ -13,9 +13,14 @@
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button id="loadAltModal1" type="button" class="btn btn-primary" data-event="openModal" data-template="modal1.html" data-target="modal1">Load Modal 1</button>
             </div>
         </div>
         </div>
+        <script>
+
+            $('#loadAltModal1').dynamodal();
+
+        </script>
     </div>
 </template>

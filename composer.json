@@ -1,0 +1,20 @@
+{
+    "name": "leviathenator/bootstrap-ajax-dynamic-modals",
+    "description": "Extends the Bootstrap 4 native modals to load and open modals from outside templates without having to hard code them into your DOM.",
+    "type": "library",
+    "config": {
+        "vendor-dir": "composer_vendor"
+    },
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "Levi Fuson",
+            "email": "levi@thefusonfamily.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "4.0.0",
+        "components/jquery": "^3.3"
+    }
+}
